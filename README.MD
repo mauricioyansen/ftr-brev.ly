@@ -2,6 +2,7 @@
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -72,8 +73,8 @@ Siga os passos abaixo para configurar e executar a aplicação localmente.
 
 ### 1. Clonar o Repositório
 ```bash
-git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
-cd nome-do-repositorio
+git clone https://github.com/mauricioyansen/ftr-brev.ly.git
+cd ftr-brev.ly
 ```
 
 ### 2. Configuração do Backend (`server/`)
@@ -163,4 +164,3 @@ A API expõe os seguintes endpoints de gestão na rota `/links`:
 
 A rota pública de redirecionamento é:
 - `GET /:code`: Redireciona para a URL original.
-```
